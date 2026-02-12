@@ -13,8 +13,8 @@ st.title("네이버 도서 검색 애플리케이션")
 
 # .env 파일에서 환경 변수 로드
 load_dotenv()
-client_id = os.getenv("NAVER_CLIENT_ID")
-client_secret = os.getenv("NAVER_CLIENT_SECRET")
+client_id = os.getenv("CLIENT_ID")
+client_secret = os.getenv("CLIENT_SECRET")
 
 headers = {
     'X-Naver-Client-Id': client_id,
